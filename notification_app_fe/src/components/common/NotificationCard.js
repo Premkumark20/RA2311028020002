@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Card, CardContent, Typography } from '@mui/material';
-import { logInfo } from '../utils/logger';
+import { logInfo } from '../../utils/logger';
 
 function NotificationCard({ data }) {
   const [isRead, setIsRead] = useState(false);
